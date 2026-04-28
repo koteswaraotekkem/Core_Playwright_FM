@@ -1,0 +1,22 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --config=playwright.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@reportportal/agent-js-playwright": "^5.3.2",
+    "@types/mssql": "^9.1.8",
+    "@types/node": "^24.2.0",
+    "allure-playwright": "^3.3.3",
+    "dotenv": "^17.2.1",
+    "mssql": "^11.0.1"
+  }
+}
