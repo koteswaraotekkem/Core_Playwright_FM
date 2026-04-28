@@ -1,0 +1,13 @@
+{
+  "urls": {
+    "baseUrl": "https://dev.example.com",
+    "apiUrl": "https://dev.api.example.com"
+  },
+  "cid": "1500035",
+  "database": {
+    "user": "dev_user",
+    "password": "dev_password",
+    "server": "dev.db.example.com",
+    "database": "dev_database"
+  }
+}

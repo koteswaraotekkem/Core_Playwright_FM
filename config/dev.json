@@ -1,0 +1,38 @@
+{
+  "urls": {
+    "baseUrl": "https://service-dev-app.connec.com/Default.aspx?cid=",
+    "apiMicroServTokenUrl": "https://tms.int.global-com/v2/oauth/tokens",
+    "refreshToken":"dsfsdfsadf437aa1",
+    "microServBaseUrl": "https://c.int.nebula-dev.connec.com"
+  },
+  "cid": "1500034",
+  "database": {
+    "user": "clouduser",
+    "password": "Ssad@sad",
+    "server": ".com",
+    "database": "ServiceBook"
+  },
+  "appPwd": "fH2e!jT7Gt",
+  "headers": {
+    "accept": "*/*",
+    "x-company-id": "210002",
+    "x-request-user": "1",
+    "x-department-id": "test",
+    "x-store-id": "S100105536",
+    "x-enterprise-id": "2"
+  },
+  "api": {
+    "endpoints": {
+      "addTechnicianToTeam": "/act/v1/teams/{teamId}/employees",
+      "removeTechnicianFromTeam": "/act/v1/teams/{teamId}/employees/{employeeId}"
+    },
+    "requestBodies": {
+      "addTechnicianToTeam": {
+        "employees": [
+          "sdfsdf"
+        ],
+        "employeeType": "Technician"
+      }
+    }
+  }
+}

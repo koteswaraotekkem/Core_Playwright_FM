@@ -1,0 +1,13 @@
+{
+  "urls": {
+    "baseUrl": "https://qa.example.com",
+    "apiUrl": "https://qa.api.example.com"
+  },
+  "cid": "1500034",
+  "database": {
+    "user": "qa_user",
+    "password": "qa_password",
+    "server": "qa.db.example.com",
+    "database": "qa_database"
+  }
+}

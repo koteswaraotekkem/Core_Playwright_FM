@@ -1,0 +1,13 @@
+{
+  "urls": {
+    "baseUrl": "https://prod.example.com",
+    "apiUrl": "https://prod.api.example.com"
+  },
+  "cid": "1500036",
+  "database": {
+    "user": "prod_user",
+    "password": "prod_password",
+    "server": "prod.db.example.com",
+    "database": "prod_database"
+  }
+}
